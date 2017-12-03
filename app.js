@@ -10,9 +10,7 @@ var cors = require('cors')
 
 
 
- mongoose.connect(mongodb://haduchuy96:2651996Haduchuy@ds129156.mlab.com:29156/my_wallet, function (err, res) {
-     
-    });
+ mongoose.connect("mongodb://haduchuy96:2651996Haduchuy@ds129156.mlab.com:29156/my_wallet");
 mongoose.set("debug", true);
 
 var api = require('./routes/api');
