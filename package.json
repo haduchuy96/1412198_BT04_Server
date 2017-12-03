@@ -1,0 +1,20 @@
+{
+  "name": "1412198-btcn04-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "hbs": "~4.0.1",
+    "morgan": "~1.9.0",
+    "mongoose": "^4.13.5",
+    "cors": "^2.8.4",
+    "serve-favicon": "~2.4.5"
+  }
+}
