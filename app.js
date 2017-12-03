@@ -8,18 +8,10 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 var cors = require('cors')
 
-var uristring =
-    process.env.MONGOLAB_URI ||
-    process.env.MONGOHQ_URL ||
-    'mongodb://localhost:27017/my_wallet';
 
 
- mongoose.connect(uristring, function (err, res) {
-      if (err) {
-      console.log ('ERROR connecting to: ' + uristring + '. ' + err);
-      } else {
-      console.log ('Succeeded connected to: ' + uristring);
-      }
+ mongoose.connect(mongodb://haduchuy96:2651996Haduchuy@ds129156.mlab.com:29156/my_wallet, function (err, res) {
+     
     });
 mongoose.set("debug", true);
 
